@@ -10,19 +10,28 @@
 <body>
     <h1 class="title">ETCH-A-SKETCH</h1>
     <div class="selectGridSize">
-        <label for="gridSize">Choose your grid size </label>
+        <p>GRID SIZE:</p>
+        <p id = "gridSizeOutput"></p>
         <input
         type="range"
         name="gridSize"
         id="gridSize"
-        min="1"
-        max="100"
+        min="2"
+        max="64"
         step="1"
-        value="50" />
-        <output class="grid-output" for="gridSize">16</output>
+        value="16" />
+        <p ></p>  
     </div>
+    <button class="createBtn">Create</button>
     <div class="container">
+        <div class="cellContainer">
+            <div class = "gridCell"></div>
+        <div class = "gridCell"></div>
+        <div class = "gridCell"></div>
+        <div class = "gridCell"></div>
         
+        </div>
+       
         
     </div>
     
