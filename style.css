@@ -72,9 +72,8 @@ body{
 }
 
 .gridCell{
-    border:1px solid #303030;
-    height:50%;
-    width:50%;
+    border:1px solid #f3f3f3;
+
     
 }
 
