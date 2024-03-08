@@ -10,7 +10,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    padding:3% 15%;
+    padding:20px 15%;
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(30,36,36,1) 100%);
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body{
 
 .selectGridSize{
     color:#fff;
-    margin-top:100px;
+    margin-top:20px;
     display: flex;
     gap:10px;
     align-items: center;
@@ -48,7 +48,9 @@ body{
 
 
 .container{
-    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
     width:700px;
     height: 700px;
     margin-top:100px;
@@ -56,14 +58,14 @@ body{
 }
 
 .createBtn{
-    height:75px;
-    width:150px;
-    font-size:1.5em;
+    height:50px;
+    width:100px;
+    font-size:1.2em;
     color:#303030;
-    margin-top: 50px;
 }
 
 .cellContainer{
+    background-color: #fff;
     display:flex;
     flex-wrap: wrap;
     flex-shrink: 0;
@@ -72,12 +74,20 @@ body{
 }
 
 .gridCell{
-    border:1px solid #f3f3f3;
-
-    
+    border:1px solid #000;  
 }
 
-.gridCell:hover{
+.gridCellDarken{
     background-color: #303030;
 }
 
+.sideBar{
+    margin: 0 5%;
+}
+
+.sideBarBtn{
+    height:50px;
+    width:100px;
+    font-size:1em;
+    color:#303030;
+}
